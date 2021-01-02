@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="233b1175-8845-4078-aa96-6b80ea3eae74" name="Kariid">
+        <fileTransfer rootFolder="/home/adsffdby/test-task.kariid.adsffdby.vh114.hosterby.com" accessType="SFTP" host="93.125.99.123" port="22" sshConfigId="7656c6cd-d3f4-4678-884e-6d11d51f8616" sshConfig="adsffdby@93.125.99.123:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
