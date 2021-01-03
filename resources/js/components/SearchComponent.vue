@@ -52,9 +52,10 @@ export default {
     }),
     methods: {
         search () {
+        this.text = this.text.trim()
             if (this.text) {
                 this.loading = true
-                axios({ url: 'https://test-task.kariid.adsffdby.vh114.hosterby.com/api/search-vin/' + this.text.trim() })
+                axios({ url: 'https://test-task.kariid.adsffdby.vh114.hosterby.com/api/search-vin/' + this.text })
                     .then(res => {
                         this.loading = false
                         this.response = res.data
